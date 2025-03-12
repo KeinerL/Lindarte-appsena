@@ -9,25 +9,31 @@
  * Consider organizing styles into separate files for maintainability.
  */
 
-body {
-    background-color: rgb(255, 251, 195);
-    text-align: center;
+main{
+    border: 1px solid black;
+    margin: auto;
+    width: 90%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
 }
 
-#people {
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-}
-#person_nombre, #person_apellido, #person_documento, #person_correo, .button_to{
-    margin: 2%;
+header{
+    border: 1px solid black;;
+    height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
-h1{
-    border: 5px solid black;
-    border-radius: 15px;
-    padding: 1% 0 1% 0;
-    margin: 0 25% 0 25%;
-    background-color: black;
-    color: white;
+nav{
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
 }
