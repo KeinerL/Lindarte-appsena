@@ -2,10 +2,11 @@
 
 <% content_for :title, "People" %>
 
-<h1>People</h1>
+<h1 class="title">People</h1>
 
 <div id="people">
   <% @people.each do |person| %>
+    <div class="person">
     <%= render person %>
     <p>
       <%= link_to "Show this person", person %>
