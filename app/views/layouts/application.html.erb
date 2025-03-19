@@ -33,9 +33,17 @@
     <section id="main">
       <aside>
         <h1>aside</h1>
-        <%= link_to "cars", cars_path %>
+        <%= link_to "cars1", cars1_path, class: "btn btn-primary" %>
+        <%= link_to "cars2", cars2_path, class: "btn btn-primary" %>
+        <%= link_to "home", welcome_path, class: "btn btn-primary" %>
+
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+
       </aside>
       <section id="content">
+
+
         
           <%= yield %>
         

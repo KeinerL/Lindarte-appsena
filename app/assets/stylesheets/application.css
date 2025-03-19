@@ -24,8 +24,7 @@ aside{
     border: 1px solid black;
     height: 500px;
     width: 300px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 #main{
